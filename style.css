@@ -4,6 +4,33 @@ html, body {
 }
 canvas{
   border: 2px solid black;
-  margin-top:50px;
-  margin-left: 350px;
+}
+
+button, button:visited {
+  font-family: Tahoma, sans-serif;
+  font-size:25px;
+  width: 160px;
+  height: 40px;
+  display: inline-block;
+  background: white;
+  border: 1px solid black;
+}
+
+button:active, button:hover {
+  background-color: #3b3bf3;
+  color:white;
+  padding:2px;
+  border-width: 3px;
+}
+
+button:active {
+  background-color: #5353f7;
+}
+
+button:active.stock, button:hover.stock {
+  background-color: #ce2626;
+}
+
+button:active.stock {
+  background-color: #e24444;
 }
